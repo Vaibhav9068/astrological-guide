@@ -25,6 +25,12 @@ export default function Hero() {
       { opacity: 1, scale: 1, duration: 2, ease: 'power2.out' }
     );
 
+    // 2b. Subtle Mandala: Fade in to original low opacity
+    gsap.fromTo('.hero-mandala-glow',
+      { opacity: 0, scale: 0.8 },
+      { opacity: 0.11, scale: 1, duration: 2, ease: 'power2.out' }
+    );
+
     // 3. Heading: Fade Up
     gsap.fromTo('.hero-heading', 
       { opacity: 0, y: 60 },
@@ -170,7 +176,7 @@ export default function Hero() {
               <div className="absolute w-[80%] aspect-square rounded-full border border-[#D4AF37]/30 bg-gradient-to-br from-[#D4AF37]/10 to-transparent top-[15%] left-1/2 -translate-x-1/2 z-0 animate-pulse-slow hero-halo-glow" />
 
               {/* Elegant Mandala Pattern */}
-              <div className="absolute w-[95%] aspect-square top-[7%] left-1/2 -translate-x-1/2 opacity-[0.11] animate-spin-slow z-0 text-[#B8860B] pointer-events-none hero-halo-glow" style={{ animationDuration: '90s' }}>
+              <div className="absolute w-[95%] aspect-square top-[7%] left-1/2 -translate-x-1/2 opacity-[0.11] animate-spin-slow z-0 text-[#B8860B] pointer-events-none hero-mandala-glow" style={{ animationDuration: '90s' }}>
                 <svg className="w-full h-full" viewBox="0 0 100 100" fill="none" stroke="currentColor" strokeWidth="0.4">
                   <circle cx="50" cy="50" r="48" />
                   <circle cx="50" cy="50" r="44" strokeDasharray="2 2" />
