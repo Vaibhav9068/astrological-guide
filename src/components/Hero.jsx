@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
-import { Star } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import astroImage from '../../images/astroimage.png';
 
@@ -40,12 +39,6 @@ export default function Hero() {
     gsap.fromTo('.hero-text-item', 
       { opacity: 0, y: 35 },
       { opacity: 1, y: 0, duration: 1, stagger: 0.15, ease: 'power3.out', delay: 0.3 }
-    );
-
-    // 5. Cards: Stagger animation
-    gsap.fromTo('.hero-card', 
-      { opacity: 0, y: 40 },
-      { opacity: 1, y: 0, duration: 0.85, stagger: 0.12, ease: 'power2.out', delay: 0.7 }
     );
   }, { scope: heroRef });
 
@@ -253,50 +246,9 @@ export default function Hero() {
             </div>
 
             {/* Description */}
-            <p className="hero-text-item font-poppins text-xs sm:text-sm md:text-base text-[#4A3A2A] max-w-2xl mx-auto leading-relaxed mb-8 text-center">
+            <p className="hero-text-item font-poppins text-xs sm:text-sm md:text-base text-[#4A3A2A] max-w-2xl mx-auto leading-relaxed text-center">
               {t('hero.desc')}
             </p>
-
-            {/* 4 Premium Glass Cards Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl w-full mb-10 mx-auto">
-              
-              <div className="hero-card bg-white/90 border border-[#D4AF37]/30 hover:border-[#D4AF37]/75 rounded-2xl p-4 flex items-center justify-center gap-3 shadow-[0_8px_30px_rgb(109,26,26,0.03)] hover:shadow-[0_15px_30px_rgb(109,26,26,0.08)] transition-all duration-300 hover:-translate-y-1">
-                <div className="w-8 h-8 rounded-full bg-[#6D1A1A]/10 border border-[#D4AF37]/30 flex items-center justify-center text-[#D4AF37] shrink-0">
-                  <Star className="w-4 h-4 fill-current text-[#D4AF37]" />
-                </div>
-                <span className="font-cinzel text-xs sm:text-sm font-bold text-[#2B1A0A] text-center">
-                  {t('hero.card_experience')}
-                </span>
-              </div>
-
-              <div className="hero-card bg-white/90 border border-[#D4AF37]/30 hover:border-[#D4AF37]/75 rounded-2xl p-4 flex items-center justify-center gap-3 shadow-[0_8px_30px_rgb(109,26,26,0.03)] hover:shadow-[0_15px_30px_rgb(109,26,26,0.08)] transition-all duration-300 hover:-translate-y-1">
-                <div className="w-8 h-8 rounded-full bg-[#6D1A1A]/10 border border-[#D4AF37]/30 flex items-center justify-center text-[#D4AF37] shrink-0">
-                  <Star className="w-4 h-4 fill-current text-[#D4AF37]" />
-                </div>
-                <span className="font-cinzel text-xs sm:text-sm font-bold text-[#2B1A0A] text-center">
-                  {t('hero.card_clients')}
-                </span>
-              </div>
-
-              <div className="hero-card bg-white/90 border border-[#D4AF37]/30 hover:border-[#D4AF37]/75 rounded-2xl p-4 flex items-center justify-center gap-3 shadow-[0_8px_30px_rgb(109,26,26,0.03)] hover:shadow-[0_15px_30px_rgb(109,26,26,0.08)] transition-all duration-300 hover:-translate-y-1">
-                <div className="w-8 h-8 rounded-full bg-[#6D1A1A]/10 border border-[#D4AF37]/30 flex items-center justify-center text-[#D4AF37] shrink-0">
-                  <Star className="w-4 h-4 fill-current text-[#D4AF37]" />
-                </div>
-                <span className="font-cinzel text-xs sm:text-sm font-bold text-[#2B1A0A] text-center">
-                  {t('hero.card_confidential')}
-                </span>
-              </div>
-
-              <div className="hero-card bg-white/90 border border-[#D4AF37]/30 hover:border-[#D4AF37]/75 rounded-2xl p-4 flex items-center justify-center gap-3 shadow-[0_8px_30px_rgb(109,26,26,0.03)] hover:shadow-[0_15px_30px_rgb(109,26,26,0.08)] transition-all duration-300 hover:-translate-y-1">
-                <div className="w-8 h-8 rounded-full bg-[#6D1A1A]/10 border border-[#D4AF37]/30 flex items-center justify-center text-[#D4AF37] shrink-0">
-                  <Star className="w-4 h-4 fill-current text-[#D4AF37]" />
-                </div>
-                <span className="font-cinzel text-xs sm:text-sm font-bold text-[#2B1A0A] text-center">
-                  {t('hero.card_personalized')}
-                </span>
-              </div>
-
-            </div>
 
           </div>
 
