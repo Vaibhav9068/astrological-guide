@@ -14,59 +14,40 @@ export default function Hero() {
   // GSAP Animations
   useGSAP(() => {
     // 1. Hero Image Container: Fade + Scale
-    gsap.from('.hero-image-wrapper', {
-      opacity: 0,
-      scale: 0.9,
-      duration: 1.5,
-      ease: 'power3.out',
-    });
+    gsap.fromTo('.hero-image-wrapper', 
+      { opacity: 0, scale: 0.9 },
+      { opacity: 1, scale: 1, duration: 1.5, ease: 'power3.out' }
+    );
 
     // 2. Halo and Mandala: Slow rotate/pulse
-    gsap.from('.hero-halo-glow', {
-      opacity: 0,
-      scale: 0.8,
-      duration: 2,
-      ease: 'power2.out',
-    });
+    gsap.fromTo('.hero-halo-glow', 
+      { opacity: 0, scale: 0.8 },
+      { opacity: 1, scale: 1, duration: 2, ease: 'power2.out' }
+    );
 
     // 3. Heading: Fade Up
-    gsap.from('.hero-heading', {
-      y: 60,
-      opacity: 0,
-      duration: 1.2,
-      ease: 'power3.out',
-      delay: 0.1,
-    });
+    gsap.fromTo('.hero-heading', 
+      { opacity: 0, y: 60 },
+      { opacity: 1, y: 0, duration: 1.2, ease: 'power3.out', delay: 0.1 }
+    );
 
     // 4. Badges, Subheadings, Paragraph: Fade Up Stagger
-    gsap.from('.hero-text-item', {
-      y: 35,
-      opacity: 0,
-      duration: 1,
-      stagger: 0.15,
-      ease: 'power3.out',
-      delay: 0.3,
-    });
+    gsap.fromTo('.hero-text-item', 
+      { opacity: 0, y: 35 },
+      { opacity: 1, y: 0, duration: 1, stagger: 0.15, ease: 'power3.out', delay: 0.3 }
+    );
 
     // 5. Cards: Stagger animation
-    gsap.from('.hero-card', {
-      y: 40,
-      opacity: 0,
-      duration: 0.85,
-      stagger: 0.12,
-      ease: 'power2.out',
-      delay: 0.7,
-    });
+    gsap.fromTo('.hero-card', 
+      { opacity: 0, y: 40 },
+      { opacity: 1, y: 0, duration: 0.85, stagger: 0.12, ease: 'power2.out', delay: 0.7 }
+    );
 
     // 6. Buttons: Fade Up Stagger
-    gsap.from('.hero-btn', {
-      y: 30,
-      opacity: 0,
-      duration: 0.8,
-      stagger: 0.1,
-      ease: 'power2.out',
-      delay: 1.1,
-    });
+    gsap.fromTo('.hero-btn', 
+      { opacity: 0, y: 30 },
+      { opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power2.out', delay: 1.1 }
+    );
   }, { scope: heroRef });
 
   // Floating Golden Particles Canvas Animation
