@@ -1,8 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
-import { Phone, Calendar, Star } from 'lucide-react';
-import { FaWhatsapp } from 'react-icons/fa';
+import { Star } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import astroImage from '../../images/astroimage.png';
 
@@ -47,12 +46,6 @@ export default function Hero() {
     gsap.fromTo('.hero-card', 
       { opacity: 0, y: 40 },
       { opacity: 1, y: 0, duration: 0.85, stagger: 0.12, ease: 'power2.out', delay: 0.7 }
-    );
-
-    // 6. Buttons: Fade Up Stagger
-    gsap.fromTo('.hero-btn', 
-      { opacity: 0, y: 30 },
-      { opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power2.out', delay: 1.1 }
     );
   }, { scope: heroRef });
 
@@ -303,36 +296,6 @@ export default function Hero() {
                 </span>
               </div>
 
-            </div>
-
-            {/* 3 Large Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 items-center justify-center w-full">
-              {/* Primary */}
-              <a
-                href="#contact"
-                className="hero-btn w-full sm:w-auto text-center px-8 py-4 text-xs sm:text-sm rounded-full font-bold font-cinzel tracking-widest bg-gradient-to-r from-[#B8860B] via-[#D4AF37] to-[#B8860B] text-white border border-[#D4AF37]/50 shadow-md hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 relative overflow-hidden group inline-flex items-center justify-center gap-2"
-              >
-                <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:animate-shimmer pointer-events-none" />
-                <Calendar className="w-4 h-4" /> {t('hero.btn_book')}
-              </a>
-
-              {/* Secondary (WhatsApp) */}
-              <a
-                href="https://wa.me/918383941616"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hero-btn w-full sm:w-auto text-center px-8 py-4 text-xs sm:text-sm rounded-full font-bold font-cinzel tracking-widest bg-[#6D1A1A] hover:bg-[#521313] text-[#FFF8E8] border border-[#D4AF37]/30 shadow-md hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 inline-flex items-center justify-center gap-2"
-              >
-                <FaWhatsapp className="w-4.5 h-4.5 text-green-400" /> {t('hero.btn_whatsapp')}
-              </a>
-
-              {/* Outline (Call Now) */}
-              <a
-                href="tel:+918383941616"
-                className="hero-btn w-full sm:w-auto text-center px-8 py-4 text-xs sm:text-sm rounded-full font-bold font-cinzel tracking-widest border-2 border-[#D4AF37] hover:border-[#6D1A1A] text-[#6D1A1A] hover:bg-[#D4AF37]/10 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 inline-flex items-center justify-center gap-2"
-              >
-                <Phone className="w-4.5 h-4.5" /> {t('hero.btn_call')}
-              </a>
             </div>
 
           </div>
