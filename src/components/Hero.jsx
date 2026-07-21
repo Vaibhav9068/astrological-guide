@@ -134,7 +134,7 @@ export default function Hero() {
     <section
       ref={heroRef}
       id="home"
-      className="relative min-h-screen flex items-center justify-center pt-36 lg:pt-44 pb-16 lg:pb-0 overflow-hidden bg-[#FFF8E8]"
+      className="relative min-h-screen flex items-center justify-center pt-28 lg:pt-44 pb-12 lg:pb-0 overflow-hidden bg-[#FFF8E8]"
     >
       {/* Background Layer 1: Soft Golden Radial Gradients */}
       <div className="absolute top-[-10%] right-[-10%] w-[50%] aspect-square rounded-full bg-gradient-to-br from-[#D4AF37]/15 to-transparent blur-[120px] pointer-events-none z-0" />
@@ -176,7 +176,7 @@ export default function Hero() {
 
       {/* Layout Grid */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center lg:items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-center lg:items-start">
           
           {/* LEFT (45%): Image & Graphics - Appears First on Mobile */}
           <div className="lg:col-span-5 order-1 lg:order-1 flex justify-center relative select-none z-20">

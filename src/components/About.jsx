@@ -29,7 +29,7 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="py-24 relative overflow-hidden bg-[#FFFDF7]">
+    <section id="about" className="pt-12 pb-24 lg:py-24 relative overflow-hidden bg-[#FFFDF7]">
       {/* Background decoration */}
       <div className="absolute right-[-100px] top-1/4 w-[400px] h-[400px] rounded-full bg-primary/5 blur-[120px] pointer-events-none" />
 
