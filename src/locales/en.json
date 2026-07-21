@@ -1,0 +1,319 @@
+{
+  "seo": {
+    "title": "Pandit Sanjay Uniyal | 30+ Years Experienced Vedic Astrologer",
+    "description": "Vedic Astrology & Spiritual Guidance by Pandit Sanjay Uniyal. Consultations for Kundli Analysis, Career, Marriage, Vastu and Graha Remedies."
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "pricing": "Pricing",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "book_appointment": "Book Appointment"
+  },
+  "hero": {
+    "badge": "30+ Years of Astrology & Spiritual Guidance",
+    "pandit": "Pandit",
+    "name": "Sanjay Uniyal",
+    "subtitle": "Experience-Based Astrology & Spiritual Guidance",
+    "mantra_subtitle": "— Maa Baglamukhi Maha Mantra",
+    "desc": "Guiding individuals with experience-based Vedic astrology, personalized horoscope analysis, spiritual remedies, and practical guidance inspired by Maa Baglamukhi.",
+    "card_experience": "30+ Years Experience",
+    "card_clients": "1000+ Happy Clients",
+    "card_confidential": "Confidential Consultation",
+    "card_personalized": "Personalized Guidance",
+    "btn_book": "Book Appointment",
+    "btn_whatsapp": "WhatsApp",
+    "btn_call": "Call Now"
+  },
+  "about": {
+    "badge": "About Pandit Ji",
+    "title": "A Legacy of Experience, Faith & Vedic Wisdom",
+    "card_exp_years": "30+",
+    "card_exp_label": "Years of Experience",
+    "card_clients_count": "1000+",
+    "card_clients_label": "Happy Clients",
+    "card_personal_title": "Personal",
+    "card_personal_label": "One-to-One Consultation",
+    "card_appointments_title": "Online & Offline",
+    "card_appointments_label": "Appointments Available",
+    "quote": "\"Astrology is not about predicting destiny—it is about understanding life's possibilities and making wiser decisions through knowledge, experience, and faith.\"",
+    "quote_author": "— Pandit Sanjay Uniyal",
+    "description": "For more than 30 years, Pandit Sanjay Uniyal has been dedicated to the practice of Vedic Astrology, offering guidance rooted in traditional principles, spiritual wisdom, and years of practical experience. Every consultation is approached with sincerity, confidentiality, and a personalized understanding of each individual's unique life journey. Whether seeking clarity in career, marriage, finance, family, or personal growth, his guidance focuses on helping people make informed decisions with confidence and faith.",
+    "milestone_1995_title": "Beginning of a Spiritual Journey",
+    "milestone_1995_desc": "Started the lifelong practice of Vedic Astrology with a commitment to studying traditional astrological principles, Kundli analysis, and spiritual guidance.",
+    "milestone_2005_title": "Years of Practical Experience",
+    "milestone_2005_desc": "Expanded consultation services, helping individuals and families gain clarity in important life decisions through personalized astrological guidance.",
+    "milestone_2015_title": "Trusted Guidance for Thousands",
+    "milestone_2015_desc": "Built long-term trust by providing experience-based consultations focused on career, marriage, business, finance, family, and spiritual well-being.",
+    "milestone_today_title": "30+ Years of Trusted Experience",
+    "milestone_today_desc": "Continuing a tradition of authentic Vedic Astrology with personalized consultations, confidential guidance, and a commitment to helping people navigate life's important decisions."
+  },
+  "counter": {
+    "exp_years": "Years Experience",
+    "happy_clients": "Happy Clients",
+    "returning_clients": "Returning Clients",
+    "monthly_consultations": "Monthly Consultations"
+  },
+  "services": {
+    "badge": "Vedic Offerings",
+    "title": "Sacred Consultations",
+    "items": [
+      {
+        "title": "Kundli Analysis",
+        "desc": "Complete horoscope analysis to understand life patterns, strengths, challenges, and future opportunities through traditional Vedic astrology.",
+        "sanskrit": "जन्म कुंडली"
+      },
+      {
+        "title": "Career & Profession",
+        "desc": "Guidance for career growth, job opportunities, business decisions, promotions, and professional direction.",
+        "sanskrit": "कर्म एवं जीविका"
+      },
+      {
+        "title": "Marriage & Relationships",
+        "desc": "Personalized consultation for compatibility, marriage timing, relationship harmony, and family life.",
+        "sanskrit": "वर-वधू मिलन"
+      },
+      {
+        "title": "Business & Finance",
+        "desc": "Astrological insights for business planning, investments, financial stability, and wealth-related decisions.",
+        "sanskrit": "धन एवं व्यापार"
+      },
+      {
+        "title": "Graha Dosha Analysis",
+        "desc": "Identification of planetary influences and practical guidance based on traditional astrological principles.",
+        "sanskrit": "ग्रह दोष निवारण"
+      },
+      {
+        "title": "Gemstone Consultation",
+        "desc": "Recommendations for suitable gemstones based on your birth chart and planetary combinations.",
+        "sanskrit": "रत्न परामर्श"
+      },
+      {
+        "title": "Vastu Guidance",
+        "desc": "Suggestions for creating a balanced and harmonious living or working environment through Vastu principles.",
+        "sanskrit": "वास्तु शास्त्र"
+      },
+      {
+        "title": "Spiritual Consultation",
+        "desc": "Guidance for personal growth, spiritual practices, and overcoming life challenges with faith and wisdom.",
+        "sanskrit": "अध्यात्म एवं साधना"
+      }
+    ]
+  },
+  "pricing": {
+    "badge": "Consultation Plans",
+    "title": "Sacred Offerings",
+    "subtitle": "Choose the consultation that best suits your needs. Every consultation is conducted personally by Pandit Sanjay Uniyal with complete confidentiality and experience-based Vedic astrology guidance.",
+    "plans": [
+      {
+        "title": "Basic Consultation",
+        "hindi": "सामान्य परामर्श",
+        "price": "₹499",
+        "desc": "Ideal for individuals seeking guidance on a specific life concern through traditional Vedic astrology.",
+        "features": [
+          "Basic Kundli Review",
+          "One Primary Life Concern",
+          "Career / Marriage / Finance Guidance",
+          "Personalized Astrological Advice",
+          "Confidential Consultation"
+        ],
+        "cta": "Book Consultation",
+        "msg": "Namaste Pandit ji, I would like to book a *Basic Consultation* (₹499). Please guide me on the next steps."
+      },
+      {
+        "title": "Detailed Kundli Analysis",
+        "hindi": "विस्तृत कुंडली विश्लेषण",
+        "price": "₹999",
+        "desc": "A comprehensive horoscope analysis providing deeper insights into important areas of life and practical guidance.",
+        "features": [
+          "Complete Birth Chart Analysis",
+          "Career & Professional Guidance",
+          "Marriage & Relationship Analysis",
+          "Business & Financial Guidance",
+          "Graha Dosha Analysis",
+          "Gemstone Recommendations (if applicable)",
+          "Personalized Astrological Guidance",
+          "Confidential Consultation"
+        ],
+        "cta": "Book Consultation",
+        "msg": "Namaste Pandit ji, I would like to book a *Detailed Kundli Analysis* (₹999). Please guide me on the next steps."
+      },
+      {
+        "title": "Special Remedy Consultation",
+        "hindi": "विशेष समाधान परामर्श",
+        "price": "₹1499",
+        "desc": "Designed for individuals seeking personalized spiritual guidance along with traditional remedies and long-term consultation.",
+        "features": [
+          "Everything Included in Detailed Analysis",
+          "Personalized Spiritual Remedies",
+          "Mantra & Upaya Guidance",
+          "Gemstone & Vastu Suggestions (if applicable)",
+          "Long-Term Astrological Guidance",
+          "Priority Consultation",
+          "Confidential Consultation"
+        ],
+        "cta": "Book Consultation",
+        "msg": "Namaste Pandit ji, I would like to book a *Special Remedy Consultation* (₹1499). Please guide me on the next steps."
+      }
+    ],
+    "most_recommended": "⭐ MOST RECOMMENDED"
+  },
+  "testimonials": {
+    "badge": "Divine Testimony",
+    "title": "Words of Trust & Serenity",
+    "subtitle": "Hear from families and business owners who have experienced life-changing transitions through classical Vedic consultations.",
+    "list": [
+      {
+        "name": "Ramesh Kumar Sharma",
+        "role": "Industrialist, Delhi NCR",
+        "text": "Pandit ji's Vastu suggestions and planetary rituals for Maa Baglamukhi changed the course of my manufacturing business. Within six months, my stalled exports started moving and the financial strain resolved. Truly grateful.",
+        "service": "Business Astrology & Vastu"
+      },
+      {
+        "name": "Meenakshi Iyer",
+        "role": "Tech Lead, Bangalore",
+        "text": "I was extremely stressed about my career transitions and marriage delays. Pandit Sanjay Uniyal analyzed my birth chart and prescribed a yellow sapphire. His timing predictions were highly accurate, and his calm demeanor is deeply comforting.",
+        "service": "Career Guidance & Marriage"
+      },
+      {
+        "name": "Vikram Aditya Rathore",
+        "role": "Real Estate Developer, Jaipur",
+        "text": "The marriage matching consultation was highly professional. He did not just count gunas; he explained planetary alignments for longevity, health, and mutual respect. He is the most logical astrologer I have ever met.",
+        "service": "Kundli Milan & Compatibility"
+      },
+      {
+        "name": "Dr. Sunita Joshi",
+        "role": "Professor, Dehradun",
+        "text": "We performed a planetary dosha shanti puja under Pandit ji's guidance. The negativity in our household has completely vanished, and my son's health has significantly improved. Highly recommend his classical approach.",
+        "service": "Planetary Dosha Remedies"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "Got Questions?",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about our Vedic consultations, birth charts, remedies, and privacy guidelines.",
+    "list": [
+      {
+        "q": "What details do I need to provide for a horoscope reading?",
+        "a": "To perform an accurate Vedic analysis, you need to provide your exact Date of Birth, exact Time of Birth (with AM/PM), and Place of Birth. If your birth time is approximate, please inform us in advance so we can run calculations to verify your ascendant degree."
+      },
+      {
+        "q": "How accurate are the predictions and suggestions?",
+        "a": "Vedic astrology (Jyotish) is a mathematical science of planetary coordinates and Dasha (timeline) periods. While horoscope readings outline the cosmic tendencies and periods of opportunity or caution, classical remedies are suggested to neutralize malefic configurations and empower favorable ones."
+      },
+      {
+        "q": "What is the significance of Maa Baglamukhi in the remedies?",
+        "a": "Maa Baglamukhi is one of the ten great Mahavidyas representing victory, protection, and the subduing of obstacles, legal problems, and negative forces. Pandit Sanjay Uniyal specializes in Maa Baglamukhi sadhanas, prescribing powerful, protective mantras and rituals to clear severe life blockages."
+      },
+      {
+        "q": "Can I book an online session or do I need to visit in person?",
+        "a": "We offer full flexibility. You can book an online consultation via Google Meet, Zoom, or WhatsApp video call, which is highly detailed and includes digital sharing of your birth chart. Alternatively, you can book an in-person, face-to-face consultation at our center."
+      },
+      {
+        "q": "Are the suggested remedies expensive or complex to perform?",
+        "a": "No. Pandit ji focuses on practical, authentic Vedic remedies. Most remedies include chanting specific mantras, planetary donations (Daan), fasting on certain days, or setting up small elements to balance home energy. Gemstones are optional and suggested only if planetary strength is highly deficient."
+      },
+      {
+        "q": "How is the confidentiality of my consultation maintained?",
+        "a": "Your trust is our highest priority. All personal questions, financial struggles, family disputes, birth chart data, and conversation details are kept strictly confidential. No information is stored on public servers or shared with any third parties under any circumstances."
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Contact Us",
+    "title": "Book Your Consultation",
+    "subtitle": "Appointments are available only through Phone Call or WhatsApp. Please contact us to schedule your consultation at your preferred time.",
+    "appt_badge": "✨ Appointment Only",
+    "card_title": "Ready to Book Your Consultation?",
+    "card_desc": "Speak directly with Pandit receptionist to schedule your astrology consultation. Appointments are confirmed only through a phone call or WhatsApp conversation.",
+    "label_call": "Call for Appointment",
+    "label_whatsapp": "WhatsApp Booking",
+    "whatsapp_working_hours": "Quick response during working hours.",
+    "label_hours": "Consultation Hours",
+    "hours_value": "Daily — 9:00 AM – 8:00 PM",
+    "btn_call": "Call Now",
+    "btn_whatsapp": "Chat on WhatsApp",
+    "btn_whatsapp_msg": "Hello Pandit Ji,\nI would like to book an astrology consultation appointment.",
+    "office_label": "Office Address",
+    "office_name": "Pandit Sanjay Uniyal",
+    "office_street": "Lane No. 05",
+    "office_colony": "Near THDC Colony",
+    "office_area": "Nehru Gram",
+    "office_city": "Rishikesh, Uttarakhand – 249201",
+    "office_country": "India",
+    "btn_maps": "View on Google Maps"
+  },
+  "footer": {
+    "desc": "Dedicated to preserving classical Vedic astrology. Bringing light, clarity, and peace to your life through the divine grace and protection of Maa Baglamukhi.",
+    "quick_links": "Quick Links",
+    "services": "Services",
+    "services_list": [
+      "Birth Chart Analysis",
+      "Marriage Consultation",
+      "Planetary Dosha Remedies",
+      "Gemstone Guidance",
+      "Vastu Consultation"
+    ],
+    "copyright": "Pandit Sanjay Uniyal. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions"
+  },
+  "privacy_page": {
+    "title": "Privacy Policy",
+    "subtitle": "Your privacy and personal information are treated with complete confidentiality.",
+    "last_updated": "Last Updated",
+    "back_to_home": "Back to Home",
+    "sec1_title": "1. Information We Collect",
+    "sec1_desc": "We may collect the following personal and birth details necessary to prepare and analyze your horoscope:",
+    "sec1_list": [
+      "Name",
+      "Phone Number",
+      "WhatsApp Number",
+      "Birth Date",
+      "Birth Time",
+      "Birth Place",
+      "Information voluntarily shared during consultation"
+    ],
+    "sec2_title": "2. How Your Information Is Used",
+    "sec2_desc": "Your personal information and birth details are utilized exclusively for delivering our spiritual and astrological services:",
+    "sec2_list": [
+      "Astrology consultations",
+      "Appointment scheduling",
+      "Customer communication",
+      "Personalized horoscope analysis"
+    ],
+    "sec3_title": "3. Confidentiality",
+    "sec3_desc": "Confidentiality is a sacred pillar of our guidance. All personal information and birth details remain strictly confidential and are never sold, traded, or shared with third parties except where explicitly required by law.",
+    "sec4_title": "4. Data Security",
+    "sec4_desc": "Reasonable physical, administrative, and technical measures are taken to secure and protect your personal information from unauthorized access, alteration, or disclosure.",
+    "sec5_title": "5. Third-Party Services",
+    "sec5_desc": "This website contains links to external services such as Google Maps (for directions) and WhatsApp (for scheduling). Their privacy policies apply separately to your interactions on those platforms.",
+    "sec6_title": "6. Contact",
+    "sec6_desc": "For privacy-related questions contact:"
+  },
+  "terms_page": {
+    "title": "Terms & Conditions",
+    "subtitle": "Please read these terms before booking a consultation.",
+    "last_updated": "Last Updated",
+    "back_to_home": "Back to Home",
+    "sec1_title": "1. Consultation Services",
+    "sec1_desc": "This website is designed to provide Vedic astrology consultation, horoscope reading, and spiritual guidance based on classical principles.",
+    "sec2_title": "2. Appointment Policy",
+    "sec2_desc": "Appointments are accepted and scheduled exclusively via direct Phone Call or WhatsApp. No automated online bookings or instant booking confirmations are processed directly through the website.",
+    "sec3_title": "3. Consultation Fees",
+    "sec3_desc": "All consultation packages and remedy fees must be confirmed and processed before the scheduled appointment slot.",
+    "sec4_title": "4. Personal Responsibility",
+    "sec4_desc": "Astrological guidance and planetary recommendations (stones, mantras, pujas) are intended to assist individuals in making informed personal decisions. Astrological forecasts do not guarantee specific outcomes, and all final life decisions remain the sole responsibility of the individual.",
+    "sec5_title": "5. Cancellation",
+    "sec5_desc": "Appointments may be rescheduled or cancelled based on available timings, provided that you contact us at least 24 hours in advance.",
+    "sec6_title": "6. Intellectual Property",
+    "sec6_desc": "All website content, including layout design, text copyright, custom graphics, celestial SVGs, and brand logos, is the property of Pandit Sanjay Uniyal unless otherwise stated, and may not be reproduced without prior consent.",
+    "sec7_title": "7. Changes",
+    "sec7_desc": "These Terms and Conditions may be updated, amended, or revised at any time without prior notice. Continued use of this website constitutes acceptance of the modified terms.",
+    "sec8_title": "8. Contact",
+    "sec8_desc": "For queries related to our terms:"
+  }
+}
